@@ -11,6 +11,4 @@ resource "google_project_iam_member" "user_iam" {
     description = var.condition_description
   }
 
-
-
 }

@@ -19,6 +19,11 @@ variable "condition_expression" {
   type        = string
 }
 
+variable "region" {
+  type = string
+  description = "The region"
+}
+
 //optional variables
 
 variable "condition_title" {
